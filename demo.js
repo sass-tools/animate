@@ -18,6 +18,12 @@
           editMode = true;
           document.body.classList.add('edit-mode');
         },
+        'clear-selection': function () {
+          [].forEach.call( document.querySelectorAll('[data-animation].selected'), function (element) {
+            element.classList.remove('selected');
+          });
+          localStorage.setItem( 'last-animations', '');
+        },
         'cancel-edit': function () {
           editMode = false;
           document.body.classList.remove('edit-mode');
