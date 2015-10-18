@@ -4,6 +4,11 @@
 html, body
   margin: 0
   padding: 0
+  font-family: Arial
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+button
+  cursor: pointer
 
 .box-wrapper
   position: fixed
@@ -12,18 +17,26 @@ html, body
   right: 0
   background: rgba(white, 0.9)
 
+  .sass-code
+    display: none
+
   &:before
     content: ''
     display: block
     padding-top: 12rem
 
-.box
-  position: absolute
-  top: 0; left: 0; right: 0; bottom: 0
-  margin: auto
-  width: 6rem
-  height: 6rem
-  background: royalblue
+  .box
+    position: absolute
+    top: 0; left: 0; right: 0; bottom: 0
+    margin: auto
+    width: 6rem
+    height: 6rem
+    background: royalblue
+
+  .edit
+    position: absolute
+    top: 1rem
+    right: 1rem
 
 .controls
   max-width: 960px
@@ -43,3 +56,42 @@ html, body
 
     &:hover
       background: #ccc
+
+.box-wrapper .edit .edit-on
+    display: none
+
+body.edit-mode .box-wrapper .edit
+  .edit-on
+    display: inherit
+  .edit-off
+    display: none
+
+body.edit-mode
+
+  .controls button
+
+    &:before
+      content: '[ ] '
+
+    &.selected:before
+      content: '[x] '
+
+body.show-code
+  overflow: hidden
+
+  .box-wrapper
+    bottom: 0
+
+    .box
+      display: none
+
+    .sass-code
+      display: block
+      position: absolute
+      top: 4rem
+      left: 1rem
+      right: 1rem
+      bottom: 1rem
+      margin: 0
+      outline: 1px solid #999
+      padding: 1rem
