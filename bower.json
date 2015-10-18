@@ -1,0 +1,20 @@
+{
+  "name": "nitro-skeleton",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nitrojs/nitro-skeleton",
+  "authors": [
+    "Jesús Germade <jesus@germade.es>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

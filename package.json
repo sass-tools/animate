@@ -1,0 +1,17 @@
+{
+  "name": "nitro-skeleton",
+  "version": "0.0.1",
+  "description": "nitro skeleton",
+  "main": "run.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "nitro"
+  ],
+  "author": "Jesús Germade <jesus@germade.es>",
+  "license": "MIT",
+  "devDependencies": {
+    "nitro": "^1.5.17"
+  }
+}
