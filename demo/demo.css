@@ -2511,4 +2511,5 @@ body.show-code {
 						bottom: 1rem;
 						margin: 0;
 						outline: 1px solid #999;
-						padding: 1rem; }
+						padding: 1rem;
+						overflow: auto; }
