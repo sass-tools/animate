@@ -2471,37 +2471,44 @@ button {
 				/* line 57, stdin */
 				.controls button:hover {
 						background: #ccc; }
+				/* line 60, stdin */
+				.controls button:active {
+						background: #bbb; }
 
-/* line 60, stdin */
+/* line 63, stdin */
 .box-wrapper .edit .edit-on {
 		display: none; }
 
-/* line 64, stdin */
+/* line 67, stdin */
 body.edit-mode .box-wrapper .edit .edit-on {
 		display: inherit; }
 
-/* line 66, stdin */
+/* line 69, stdin */
 body.edit-mode .box-wrapper .edit .edit-off {
 		display: none; }
 
-/* line 73, stdin */
-body.edit-mode .controls button:before {
-		content: '[ ] '; }
-
 /* line 76, stdin */
-body.edit-mode .controls button.selected:before {
-		content: '[x] '; }
+body.edit-mode .controls button.selected {
+		background: royalblue;
+		color: white;
+		border-color: #214cce; }
+		/* line 80, stdin */
+		body.edit-mode .controls button.selected:hover {
+				background: #214cce; }
+		/* line 83, stdin */
+		body.edit-mode .controls button.selected:active {
+				background: #1a3ca2; }
 
-/* line 79, stdin */
+/* line 92, stdin */
 body.show-code {
 		overflow: hidden; }
-		/* line 82, stdin */
+		/* line 95, stdin */
 		body.show-code .box-wrapper {
 				bottom: 0; }
-				/* line 85, stdin */
+				/* line 98, stdin */
 				body.show-code .box-wrapper .box {
 						display: none; }
-				/* line 88, stdin */
+				/* line 101, stdin */
 				body.show-code .box-wrapper .sass-code {
 						display: block;
 						position: absolute;
