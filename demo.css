@@ -1,5 +1,5 @@
 /* line 12, ../styles/animate.sass */
-.animate, .animate-flash, .animate-pulse, .animate-rubber-band, .animate-shake, .animate-swing, .animate-tada, .animate-wobble, .animate-bounce-in, .animate-bounce-in-down, .animate-bounceInLeft, .animate-bounce-in-right, .animate-bounce-in-up, .animate-bounce-out, .animate-bounce-out-down, .animate-bounce-out-left, .animate-bounce-out-right, .animate-bounce-out-up, .animate-fade-in, .animate-fade-in-down, .animate-fade-in-down-big, .animate-fade-in-left, .animate-fade-in-left-big, .animate-fade-in-right, .animate-fade-in-right-big, .animate-fade-in-up, .animate-fade-in-up-big, .animate-fade-out, .animate-fade-out-down, .animate-fade-out-down-big, .animate-fade-out-left, .animate-fade-out-left-big, .animate-fade-out-right, .animate-fade-out-right-big, .animate-fade-out-up, .animate-fade-out-up-big, .animate-flip, .animate-flip-in-x, .animate-flip-in-y, .animate-flip-out-x, .animate-flip-out-y, .animate-lightspeed-in, .animate-lightspeed-out, .animate-rotate-in, .animate-rotate-in-down-left, .animate-rotate-in-down-right, .animate-rotate-in-up-left, .animate-rotate-in-up-right, .animate-rotate-out, .animate-rotate-out-down-left, .animate-rotate-out-down-right, .animate-rotate-out-up-left, .animate-rotate-out-up-right, .animate-hinge, .animate-roll-in, .animate-roll-out, .animate-zoomIn, .animate-zoom-in-down, .animate-zoom-in-left, .animate-zoom-in-right, .animate-zoom-in-up, .animate-zoom-out, .animate-zoom-out-down, .animate-zoom-ou-left, .animate-zoom-out-right, .animate-zoom-out-up, .animate-slide-in-down, .animate-slide-in-left, .animate-slide-in-right, .animate-slide-in-up, .animate-slide-out-down, .animate-slide-out-left, .animate-slide-out-right, .animate-slide-out-up {
+.animate, .animate-flash, .animate-pulse, .animate-rubber-band, .animate-shake, .animate-swing, .animate-tada, .animate-wobble, .animate-bounce-in, .animate-bounce-in-down, .animate-bounce-in-left, .animate-bounce-in-right, .animate-bounce-in-up, .animate-bounce-out, .animate-bounce-out-down, .animate-bounce-out-left, .animate-bounce-out-right, .animate-bounce-out-up, .animate-fade-in, .animate-fade-in-down, .animate-fade-in-down-big, .animate-fade-in-left, .animate-fade-in-left-big, .animate-fade-in-right, .animate-fade-in-right-big, .animate-fade-in-up, .animate-fade-in-up-big, .animate-fade-out, .animate-fade-out-down, .animate-fade-out-down-big, .animate-fade-out-left, .animate-fade-out-left-big, .animate-fade-out-right, .animate-fade-out-right-big, .animate-fade-out-up, .animate-fade-out-up-big, .animate-flip, .animate-flip-in-x, .animate-flip-in-y, .animate-flip-out-x, .animate-flip-out-y, .animate-lightspeed-in, .animate-lightspeed-out, .animate-rotate-in, .animate-rotate-in-down-left, .animate-rotate-in-down-right, .animate-rotate-in-up-left, .animate-rotate-in-up-right, .animate-rotate-out, .animate-rotate-out-down-left, .animate-rotate-out-down-right, .animate-rotate-out-up-left, .animate-rotate-out-up-right, .animate-hinge, .animate-roll-in, .animate-roll-out, .animate-zoom-in, .animate-zoom-in-down, .animate-zoom-in-left, .animate-zoom-in-right, .animate-zoom-in-up, .animate-zoom-out, .animate-zoom-out-down, .animate-zoom-ou-left, .animate-zoom-out-right, .animate-zoom-out-up, .animate-slide-in-down, .animate-slide-in-left, .animate-slide-in-right, .animate-slide-in-up, .animate-slide-out-down, .animate-slide-out-left, .animate-slide-out-right, .animate-slide-out-up {
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-animation-fill-mode: both;
@@ -29,8 +29,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flash {
-		-webkit-animation-name: flash;
-		        animation-name: flash;
+		-webkit-animation-name: "flash";
+		        animation-name: "flash";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -58,8 +58,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-pulse {
-		-webkit-animation-name: pulse;
-		        animation-name: pulse;
+		-webkit-animation-name: "pulse";
+		        animation-name: "pulse";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -111,8 +111,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rubber-band {
-		-webkit-animation-name: rubber-band;
-		        animation-name: rubber-band;
+		-webkit-animation-name: "rubber-band";
+		        animation-name: "rubber-band";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -140,8 +140,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-shake {
-		-webkit-animation-name: shake;
-		        animation-name: shake;
+		-webkit-animation-name: "shake";
+		        animation-name: "shake";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -181,8 +181,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-swing {
-		-webkit-animation-name: swing;
-		        animation-name: swing;
+		-webkit-animation-name: "swing";
+		        animation-name: "swing";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -222,8 +222,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-tada {
-		-webkit-animation-name: tada;
-		        animation-name: tada;
+		-webkit-animation-name: "tada";
+		        animation-name: "tada";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -275,8 +275,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-wobble {
-		-webkit-animation-name: wobble;
-		        animation-name: wobble;
+		-webkit-animation-name: "wobble";
+		        animation-name: "wobble";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -334,8 +334,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-in {
-		-webkit-animation-name: bounce-in;
-		        animation-name: bounce-in;
+		-webkit-animation-name: "bounce-in";
+		        animation-name: "bounce-in";
 		-webkit-animation-duration: 0.75s;
 		        animation-duration: 0.75s; }
 
@@ -385,15 +385,59 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-in-down {
-		-webkit-animation-name: bounce-in-down;
-		        animation-name: bounce-in-down;
+		-webkit-animation-name: "bounce-in-down";
+		        animation-name: "bounce-in-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
+@-webkit-keyframes bounce-in-left {
+		0%, 60%, 75%, 90%, 100% {
+				-webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+				        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+		0% {
+				opacity: 0;
+				-webkit-transform: translate3d(-3000px, 0, 0);
+				        transform: translate3d(-3000px, 0, 0); }
+		60% {
+				opacity: 1;
+				-webkit-transform: translate3d(25px, 0, 0);
+				        transform: translate3d(25px, 0, 0); }
+		75% {
+				-webkit-transform: translate3d(-10px, 0, 0);
+				        transform: translate3d(-10px, 0, 0); }
+		90% {
+				-webkit-transform: translate3d(5px, 0, 0);
+				        transform: translate3d(5px, 0, 0); }
+		100% {
+				-webkit-transform: none;
+				        transform: none; } }
+
+@keyframes bounce-in-left {
+		0%, 60%, 75%, 90%, 100% {
+				-webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+				        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+		0% {
+				opacity: 0;
+				-webkit-transform: translate3d(-3000px, 0, 0);
+				        transform: translate3d(-3000px, 0, 0); }
+		60% {
+				opacity: 1;
+				-webkit-transform: translate3d(25px, 0, 0);
+				        transform: translate3d(25px, 0, 0); }
+		75% {
+				-webkit-transform: translate3d(-10px, 0, 0);
+				        transform: translate3d(-10px, 0, 0); }
+		90% {
+				-webkit-transform: translate3d(5px, 0, 0);
+				        transform: translate3d(5px, 0, 0); }
+		100% {
+				-webkit-transform: none;
+				        transform: none; } }
+
 /* line 937, ../styles/animate.sass */
-.animate-bounceInLeft {
-		-webkit-animation-name: bounceInLeft;
-		        animation-name: bounceInLeft;
+.animate-bounce-in-left {
+		-webkit-animation-name: "bounce-in-left";
+		        animation-name: "bounce-in-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -443,8 +487,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-in-right {
-		-webkit-animation-name: bounce-in-right;
-		        animation-name: bounce-in-right;
+		-webkit-animation-name: "bounce-in-right";
+		        animation-name: "bounce-in-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -494,8 +538,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-in-up {
-		-webkit-animation-name: bounce-in-up;
-		        animation-name: bounce-in-up;
+		-webkit-animation-name: "bounce-in-up";
+		        animation-name: "bounce-in-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -527,8 +571,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-out {
-		-webkit-animation-name: bounce-out;
-		        animation-name: bounce-out;
+		-webkit-animation-name: "bounce-out";
+		        animation-name: "bounce-out";
 		-webkit-animation-duration: 0.75s;
 		        animation-duration: 0.75s; }
 
@@ -560,8 +604,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-out-down {
-		-webkit-animation-name: bounce-out-down;
-		        animation-name: bounce-out-down;
+		-webkit-animation-name: "bounce-out-down";
+		        animation-name: "bounce-out-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -587,8 +631,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-out-left {
-		-webkit-animation-name: bounce-out-left;
-		        animation-name: bounce-out-left;
+		-webkit-animation-name: "bounce-out-left";
+		        animation-name: "bounce-out-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -614,8 +658,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-out-right {
-		-webkit-animation-name: bounce-out-right;
-		        animation-name: bounce-out-right;
+		-webkit-animation-name: "bounce-out-right";
+		        animation-name: "bounce-out-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -647,8 +691,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-bounce-out-up {
-		-webkit-animation-name: bounce-out-up;
-		        animation-name: bounce-out-up;
+		-webkit-animation-name: "bounce-out-up";
+		        animation-name: "bounce-out-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -666,8 +710,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in {
-		-webkit-animation-name: fade-in;
-		        animation-name: fade-in;
+		-webkit-animation-name: "fade-in";
+		        animation-name: "fade-in";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -693,8 +737,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-down {
-		-webkit-animation-name: fade-in-down;
-		        animation-name: fade-in-down;
+		-webkit-animation-name: "fade-in-down";
+		        animation-name: "fade-in-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -720,8 +764,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-down-big {
-		-webkit-animation-name: fade-in-down-big;
-		        animation-name: fade-in-down-big;
+		-webkit-animation-name: "fade-in-down-big";
+		        animation-name: "fade-in-down-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -747,8 +791,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-left {
-		-webkit-animation-name: fade-in-left;
-		        animation-name: fade-in-left;
+		-webkit-animation-name: "fade-in-left";
+		        animation-name: "fade-in-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -774,8 +818,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-left-big {
-		-webkit-animation-name: fade-in-left-big;
-		        animation-name: fade-in-left-big;
+		-webkit-animation-name: "fade-in-left-big";
+		        animation-name: "fade-in-left-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -801,8 +845,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-right {
-		-webkit-animation-name: fade-in-right;
-		        animation-name: fade-in-right;
+		-webkit-animation-name: "fade-in-right";
+		        animation-name: "fade-in-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -828,8 +872,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-right-big {
-		-webkit-animation-name: fade-in-right-big;
-		        animation-name: fade-in-right-big;
+		-webkit-animation-name: "fade-in-right-big";
+		        animation-name: "fade-in-right-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -855,8 +899,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-up {
-		-webkit-animation-name: fade-in-up;
-		        animation-name: fade-in-up;
+		-webkit-animation-name: "fade-in-up";
+		        animation-name: "fade-in-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -882,8 +926,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-in-up-big {
-		-webkit-animation-name: fade-in-up-big;
-		        animation-name: fade-in-up-big;
+		-webkit-animation-name: "fade-in-up-big";
+		        animation-name: "fade-in-up-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -901,8 +945,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out {
-		-webkit-animation-name: fade-out;
-		        animation-name: fade-out;
+		-webkit-animation-name: "fade-out";
+		        animation-name: "fade-out";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -924,8 +968,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-down {
-		-webkit-animation-name: fade-out-down;
-		        animation-name: fade-out-down;
+		-webkit-animation-name: "fade-out-down";
+		        animation-name: "fade-out-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -947,8 +991,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-down-big {
-		-webkit-animation-name: fade-out-down-big;
-		        animation-name: fade-out-down-big;
+		-webkit-animation-name: "fade-out-down-big";
+		        animation-name: "fade-out-down-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -970,8 +1014,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-left {
-		-webkit-animation-name: fade-out-left;
-		        animation-name: fade-out-left;
+		-webkit-animation-name: "fade-out-left";
+		        animation-name: "fade-out-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -993,8 +1037,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-left-big {
-		-webkit-animation-name: fade-out-left-big;
-		        animation-name: fade-out-left-big;
+		-webkit-animation-name: "fade-out-left-big";
+		        animation-name: "fade-out-left-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1016,8 +1060,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-right {
-		-webkit-animation-name: fade-out-right;
-		        animation-name: fade-out-right;
+		-webkit-animation-name: "fade-out-right";
+		        animation-name: "fade-out-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1039,8 +1083,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-right-big {
-		-webkit-animation-name: fade-out-right-big;
-		        animation-name: fade-out-right-big;
+		-webkit-animation-name: "fade-out-right-big";
+		        animation-name: "fade-out-right-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1062,8 +1106,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-up {
-		-webkit-animation-name: fade-out-up;
-		        animation-name: fade-out-up;
+		-webkit-animation-name: "fade-out-up";
+		        animation-name: "fade-out-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1085,8 +1129,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-fade-out-up-big {
-		-webkit-animation-name: fade-out-up-big;
-		        animation-name: fade-out-up-big;
+		-webkit-animation-name: "fade-out-up-big";
+		        animation-name: "fade-out-up-big";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1146,8 +1190,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flip {
-		-webkit-animation-name: flip;
-		        animation-name: flip;
+		-webkit-animation-name: "flip";
+		        animation-name: "flip";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-backface-visibility: visible !important;
@@ -1201,8 +1245,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flip-in-x {
-		-webkit-animation-name: flip-in-x;
-		        animation-name: flip-in-x;
+		-webkit-animation-name: "flip-in-x";
+		        animation-name: "flip-in-x";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-backface-visibility: visible !important;
@@ -1256,8 +1300,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flip-in-y {
-		-webkit-animation-name: flip-in-y;
-		        animation-name: flip-in-y;
+		-webkit-animation-name: "flip-in-y";
+		        animation-name: "flip-in-y";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-backface-visibility: visible !important;
@@ -1291,8 +1335,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flip-out-x {
-		-webkit-animation-name: flip-out-x;
-		        animation-name: flip-out-x;
+		-webkit-animation-name: "flip-out-x";
+		        animation-name: "flip-out-x";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1324,8 +1368,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-flip-out-y {
-		-webkit-animation-name: flip-out-y;
-		        animation-name: flip-out-y;
+		-webkit-animation-name: "flip-out-y";
+		        animation-name: "flip-out-y";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1367,8 +1411,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-lightspeed-in {
-		-webkit-animation-name: lightspeed-in;
-		        animation-name: lightspeed-in;
+		-webkit-animation-name: "lightspeed-in";
+		        animation-name: "lightspeed-in";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-animation-timing-function: ease-out;
@@ -1392,8 +1436,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-lightspeed-out {
-		-webkit-animation-name: lightspeed-out;
-		        animation-name: lightspeed-out;
+		-webkit-animation-name: "lightspeed-out";
+		        animation-name: "lightspeed-out";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-animation-timing-function: ease-in;
@@ -1429,8 +1473,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-in {
-		-webkit-animation-name: rotate-in;
-		        animation-name: rotate-in;
+		-webkit-animation-name: "rotate-in";
+		        animation-name: "rotate-in";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1464,8 +1508,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-in-down-left {
-		-webkit-animation-name: rotate-in-down-left;
-		        animation-name: rotate-in-down-left;
+		-webkit-animation-name: "rotate-in-down-left";
+		        animation-name: "rotate-in-down-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1499,8 +1543,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-in-down-right {
-		-webkit-animation-name: rotate-in-down-right;
-		        animation-name: rotate-in-down-right;
+		-webkit-animation-name: "rotate-in-down-right";
+		        animation-name: "rotate-in-down-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1534,8 +1578,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-in-up-left {
-		-webkit-animation-name: rotate-in-up-left;
-		        animation-name: rotate-in-up-left;
+		-webkit-animation-name: "rotate-in-up-left";
+		        animation-name: "rotate-in-up-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1569,8 +1613,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-in-up-right {
-		-webkit-animation-name: rotate-in-up-right;
-		        animation-name: rotate-in-up-right;
+		-webkit-animation-name: "rotate-in-up-right";
+		        animation-name: "rotate-in-up-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1600,8 +1644,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-out {
-		-webkit-animation-name: rotate-out;
-		        animation-name: rotate-out;
+		-webkit-animation-name: "rotate-out";
+		        animation-name: "rotate-out";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1631,8 +1675,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-out-down-left {
-		-webkit-animation-name: rotate-out-down-left;
-		        animation-name: rotate-out-down-left;
+		-webkit-animation-name: "rotate-out-down-left";
+		        animation-name: "rotate-out-down-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1662,8 +1706,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-out-down-right {
-		-webkit-animation-name: rotate-out-down-right;
-		        animation-name: rotate-out-down-right;
+		-webkit-animation-name: "rotate-out-down-right";
+		        animation-name: "rotate-out-down-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1693,8 +1737,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-out-up-left {
-		-webkit-animation-name: rotate-out-up-left;
-		        animation-name: rotate-out-up-left;
+		-webkit-animation-name: "rotate-out-up-left";
+		        animation-name: "rotate-out-up-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1724,8 +1768,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-rotate-out-up-right {
-		-webkit-animation-name: rotate-out-up-right;
-		        animation-name: rotate-out-up-right;
+		-webkit-animation-name: "rotate-out-up-right";
+		        animation-name: "rotate-out-up-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1783,8 +1827,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-hinge {
-		-webkit-animation-name: hinge;
-		        animation-name: hinge;
+		-webkit-animation-name: "hinge";
+		        animation-name: "hinge";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1810,8 +1854,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-roll-in {
-		-webkit-animation-name: roll-in;
-		        animation-name: roll-in;
+		-webkit-animation-name: "roll-in";
+		        animation-name: "roll-in";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1833,15 +1877,31 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-roll-out {
-		-webkit-animation-name: roll-out;
-		        animation-name: roll-out;
+		-webkit-animation-name: "roll-out";
+		        animation-name: "roll-out";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
+@-webkit-keyframes zoom-in {
+		0% {
+				opacity: 0;
+				-webkit-transform: scale3d(0.3, 0.3, 0.3);
+				        transform: scale3d(0.3, 0.3, 0.3); }
+		50% {
+				opacity: 1; } }
+
+@keyframes zoom-in {
+		0% {
+				opacity: 0;
+				-webkit-transform: scale3d(0.3, 0.3, 0.3);
+				        transform: scale3d(0.3, 0.3, 0.3); }
+		50% {
+				opacity: 1; } }
+
 /* line 937, ../styles/animate.sass */
-.animate-zoomIn {
-		-webkit-animation-name: zoomIn;
-		        animation-name: zoomIn;
+.animate-zoom-in {
+		-webkit-animation-name: "zoom-in";
+		        animation-name: "zoom-in";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1875,8 +1935,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-in-down {
-		-webkit-animation-name: zoom-in-down;
-		        animation-name: zoom-in-down;
+		-webkit-animation-name: "zoom-in-down";
+		        animation-name: "zoom-in-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1910,8 +1970,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-in-left {
-		-webkit-animation-name: zoom-in-left;
-		        animation-name: zoom-in-left;
+		-webkit-animation-name: "zoom-in-left";
+		        animation-name: "zoom-in-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1945,8 +2005,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-in-right {
-		-webkit-animation-name: zoom-in-right;
-		        animation-name: zoom-in-right;
+		-webkit-animation-name: "zoom-in-right";
+		        animation-name: "zoom-in-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -1980,8 +2040,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-in-up {
-		-webkit-animation-name: zoom-in-up;
-		        animation-name: zoom-in-up;
+		-webkit-animation-name: "zoom-in-up";
+		        animation-name: "zoom-in-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2007,8 +2067,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-out {
-		-webkit-animation-name: zoom-out;
-		        animation-name: zoom-out;
+		-webkit-animation-name: "zoom-out";
+		        animation-name: "zoom-out";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2046,22 +2106,22 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-out-down {
-		-webkit-animation-name: zoom-out-down;
-		        animation-name: zoom-out-down;
+		-webkit-animation-name: "zoom-out-down";
+		        animation-name: "zoom-out-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-ou-left {
-		-webkit-animation-name: zoom-ou-left;
-		        animation-name: zoom-ou-left;
+		-webkit-animation-name: "zoom-ou-left";
+		        animation-name: "zoom-ou-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-out-right {
-		-webkit-animation-name: zoom-out-right;
-		        animation-name: zoom-out-right;
+		-webkit-animation-name: "zoom-out-right";
+		        animation-name: "zoom-out-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2099,8 +2159,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-out-up {
-		-webkit-animation-name: zoom-out-up;
-		        animation-name: zoom-out-up;
+		-webkit-animation-name: "zoom-out-up";
+		        animation-name: "zoom-out-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2124,8 +2184,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-in-down {
-		-webkit-animation-name: slide-in-down;
-		        animation-name: slide-in-down;
+		-webkit-animation-name: "slide-in-down";
+		        animation-name: "slide-in-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2149,8 +2209,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-in-left {
-		-webkit-animation-name: slide-in-left;
-		        animation-name: slide-in-left;
+		-webkit-animation-name: "slide-in-left";
+		        animation-name: "slide-in-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2174,8 +2234,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-in-right {
-		-webkit-animation-name: slide-in-right;
-		        animation-name: slide-in-right;
+		-webkit-animation-name: "slide-in-right";
+		        animation-name: "slide-in-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2199,8 +2259,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-in-up {
-		-webkit-animation-name: slide-in-up;
-		        animation-name: slide-in-up;
+		-webkit-animation-name: "slide-in-up";
+		        animation-name: "slide-in-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2224,8 +2284,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-out-down {
-		-webkit-animation-name: slide-out-down;
-		        animation-name: slide-out-down;
+		-webkit-animation-name: "slide-out-down";
+		        animation-name: "slide-out-down";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2249,8 +2309,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-out-left {
-		-webkit-animation-name: slide-out-left;
-		        animation-name: slide-out-left;
+		-webkit-animation-name: "slide-out-left";
+		        animation-name: "slide-out-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2274,8 +2334,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-out-right {
-		-webkit-animation-name: slide-out-right;
-		        animation-name: slide-out-right;
+		-webkit-animation-name: "slide-out-right";
+		        animation-name: "slide-out-right";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
@@ -2299,8 +2359,8 @@
 
 /* line 937, ../styles/animate.sass */
 .animate-slide-out-up {
-		-webkit-animation-name: slide-out-up;
-		        animation-name: slide-out-up;
+		-webkit-animation-name: "slide-out-up";
+		        animation-name: "slide-out-up";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
