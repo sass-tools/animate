@@ -10,7 +10,11 @@ Animate Sass
 [DEMO](http://sass-tools.github.io/animate/)
 
 ``` sass
+
 @import animate
+
+// *: required, ?: optional
+// @include animate(animation-name*, duration? , timing-function? )
 
 @include animate('flash')
 

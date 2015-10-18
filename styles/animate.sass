@@ -7,22 +7,22 @@
 //
 // prefixes has being removed (in order get an smaller file and being compiled with autoprefixer)
 
-$animation-duration: 0.4s !default
+$animation-duration-default: 0.4s !default
 
 .animate
-  animation-duration: $animation-duration
+  animation-duration: $animation-duration-default
   animation-fill-mode: both
 
 .animate-infinite
   animation-iteration-count: infinite
 
 .animate-hinge, .animate-large
-  animation-duration: 2*$animation-duration
+  animation-duration: 2*$animation-duration-default
 
 $timing-function-bounce: cubic-bezier(0.215, 0.610, 0.355, 1.000)
 $animation-big-movement: 2000px
 
-@mixin animate ( $animation-name: null )
+@mixin animate ( $animation-name: null, $animation-duration: $animation-duration-default, $animation-timing-function: null )
 
   $found: true !default
   $transform-origin: null !default
