@@ -2415,39 +2415,52 @@
 /* line 4, stdin */
 html, body {
 		margin: 0;
-		padding: 0; }
+		padding: 0;
+		font-family: Arial;
+		font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
 
-/* line 8, stdin */
+/* line 10, stdin */
+button {
+		cursor: pointer; }
+
+/* line 13, stdin */
 .box-wrapper {
 		position: fixed;
 		top: 0;
 		left: 0;
 		right: 0;
 		background: rgba(255, 255, 255, 0.9); }
-		/* line 15, stdin */
+		/* line 20, stdin */
+		.box-wrapper .sass-code {
+				display: none; }
+		/* line 23, stdin */
 		.box-wrapper:before {
 				content: '';
 				display: block;
 				padding-top: 12rem; }
+		/* line 28, stdin */
+		.box-wrapper .box {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				width: 6rem;
+				height: 6rem;
+				background: royalblue; }
+		/* line 36, stdin */
+		.box-wrapper .edit {
+				position: absolute;
+				top: 1rem;
+				right: 1rem; }
 
-/* line 20, stdin */
-.box {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: auto;
-		width: 6rem;
-		height: 6rem;
-		background: royalblue; }
-
-/* line 28, stdin */
+/* line 41, stdin */
 .controls {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-top: 12rem; }
-		/* line 34, stdin */
+		/* line 47, stdin */
 		.controls button {
 				padding: 0.25rem 0.5rem;
 				font-size: 1rem;
@@ -2455,6 +2468,47 @@ html, body {
 				border: 1px solid #ccc;
 				cursor: pointer;
 				margin: 0.5rem; }
-				/* line 44, stdin */
+				/* line 57, stdin */
 				.controls button:hover {
 						background: #ccc; }
+
+/* line 60, stdin */
+.box-wrapper .edit .edit-on {
+		display: none; }
+
+/* line 64, stdin */
+body.edit-mode .box-wrapper .edit .edit-on {
+		display: inherit; }
+
+/* line 66, stdin */
+body.edit-mode .box-wrapper .edit .edit-off {
+		display: none; }
+
+/* line 73, stdin */
+body.edit-mode .controls button:before {
+		content: '[ ] '; }
+
+/* line 76, stdin */
+body.edit-mode .controls button.selected:before {
+		content: '[x] '; }
+
+/* line 79, stdin */
+body.show-code {
+		overflow: hidden; }
+		/* line 82, stdin */
+		body.show-code .box-wrapper {
+				bottom: 0; }
+				/* line 85, stdin */
+				body.show-code .box-wrapper .box {
+						display: none; }
+				/* line 88, stdin */
+				body.show-code .box-wrapper .sass-code {
+						display: block;
+						position: absolute;
+						top: 4rem;
+						left: 1rem;
+						right: 1rem;
+						bottom: 1rem;
+						margin: 0;
+						outline: 1px solid #999;
+						padding: 1rem; }

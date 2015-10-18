@@ -2,13 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title></title>
     <link rel="stylesheet" href="demo.css" />
   </head>
   <body>
     <div class="box-wrapper">
       <div class="box"></div>
+      <pre class="sass-code" contenteditable></pre>
+      <div class="edit">
+        <div class="edit-off">
+          <button data-action="edit" type="button">edit</button>
+        </div>
+        <div class="edit-on">
+          <button data-action="show-code" type="button">show code</button>
+          <button data-action="cancel-edit" type="button">cancel</button>
+        </div>
+      </div>
     </div>
     <div class="controls">
 
