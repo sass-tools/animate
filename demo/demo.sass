@@ -57,6 +57,9 @@ button
     &:hover
       background: #ccc
 
+    &:active
+      background: #bbb
+
 .box-wrapper .edit .edit-on
     display: none
 
@@ -70,11 +73,21 @@ body.edit-mode
 
   .controls button
 
-    &:before
-      content: '[ ] '
+    &.selected
+      background: royalblue; color: white
+      border-color: darken(royalblue, 10)
 
-    &.selected:before
-      content: '[x] '
+      &:hover
+        background: darken(royalblue, 10)
+
+      &:active
+        background: darken(royalblue, 20)
+
+    // &:before
+    //   content: '[ ] '
+    //
+    // &.selected:before
+    //   content: '[x] '
 
 body.show-code
   overflow: hidden
