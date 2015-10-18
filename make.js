@@ -11,9 +11,10 @@ require('nitro')(function (nitro) {
 
     nitro.task('dev', ['demo'], function () {
       nitro.watch('demo')
-        .when('{,**/}*.{sass,scss}', ['templates:dev', 'sass:dev', logTime]);
+        .when('{,**/}*.{sass,scss}', ['sass:dev', logTime]);
 
       nitro.watch('styles', ['templates:dev', 'sass:dev', logTime]);
+      nitro.watch('.demo-templates', ['templates:dev', 'sass:dev', logTime]);
 
       nitro.livereload('demo');
     });

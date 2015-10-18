@@ -12,9 +12,9 @@ module.exports = function (nitro) {
           })
         });
 
-    nitro.file.write('demo/index.html', nitro.template( nitro.file.read('demo/template-index.html') )(templatesScope) );
+    nitro.file.write('demo/index.html', nitro.template( nitro.file.read('.demo-templates/template-index.html') )(templatesScope) );
 
-    nitro.file.write('demo/_animations.sass', nitro.template( nitro.file.read('demo/_template-animations.sass') )(templatesScope) );
+    nitro.file.write('.tmp/_animations.sass', nitro.template( nitro.file.read('.demo-templates/template-animations.sass') )(templatesScope) );
 
   });
 
