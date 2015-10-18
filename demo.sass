@@ -1,20 +1,35 @@
 
 @import '../.tmp/animations'
 
+html, body
+  margin: 0
+  padding: 0
+
 .box-wrapper
-  padding-top: 4rem
-  text-align: center
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  background: rgba(white, 0.9)
+
+  &:before
+    content: ''
+    display: block
+    padding-top: 12rem
 
 .box
-  display: inline-block
-  width: 5rem
-  height: 5rem
+  position: absolute
+  top: 0; left: 0; right: 0; bottom: 0
+  margin: auto
+  width: 6rem
+  height: 6rem
   background: royalblue
 
 .controls
-  padding-top: 4rem
   max-width: 960px
   margin: 0 auto
+
+  padding-top: 12rem
 
   button
     padding: 0.25rem 0.5rem

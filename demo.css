@@ -2413,23 +2413,41 @@
 		        animation-duration: 0.4s; }
 
 /* line 4, stdin */
-.box-wrapper {
-		padding-top: 4rem;
-		text-align: center; }
+html, body {
+		margin: 0;
+		padding: 0; }
 
 /* line 8, stdin */
+.box-wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, 0.9); }
+		/* line 15, stdin */
+		.box-wrapper:before {
+				content: '';
+				display: block;
+				padding-top: 12rem; }
+
+/* line 20, stdin */
 .box {
-		display: inline-block;
-		width: 5rem;
-		height: 5rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 6rem;
+		height: 6rem;
 		background: royalblue; }
 
-/* line 14, stdin */
+/* line 28, stdin */
 .controls {
-		padding-top: 4rem;
 		max-width: 960px;
-		margin: 0 auto; }
-		/* line 19, stdin */
+		margin: 0 auto;
+		padding-top: 12rem; }
+		/* line 34, stdin */
 		.controls button {
 				padding: 0.25rem 0.5rem;
 				font-size: 1rem;
@@ -2437,6 +2455,6 @@
 				border: 1px solid #ccc;
 				cursor: pointer;
 				margin: 0.5rem; }
-				/* line 29, stdin */
+				/* line 44, stdin */
 				.controls button:hover {
 						background: #ccc; }
