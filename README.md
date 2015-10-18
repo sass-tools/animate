@@ -7,7 +7,7 @@ Animate Sass
   <br/>Copyright (c) 2014 Daniel Eden
   <br/><br/>prefixes has being removed (in order get an smaller file and being compiled with autoprefixer)
 
-[DEMO](http://sass-tools.github.io/animate/)
+[DEMO](http://sasslets.github.io/animate/)
 
 ``` sass
 
