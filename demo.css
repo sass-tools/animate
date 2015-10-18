@@ -1,5 +1,5 @@
 /* line 12, ../styles/animate.sass */
-.animate, .animate-flash, .animate-pulse, .animate-rubber-band, .animate-shake, .animate-swing, .animate-tada, .animate-wobble, .animate-bounce-in, .animate-bounce-in-down, .animate-bounce-in-left, .animate-bounce-in-right, .animate-bounce-in-up, .animate-bounce-out, .animate-bounce-out-down, .animate-bounce-out-left, .animate-bounce-out-right, .animate-bounce-out-up, .animate-fade-in, .animate-fade-in-down, .animate-fade-in-down-big, .animate-fade-in-left, .animate-fade-in-left-big, .animate-fade-in-right, .animate-fade-in-right-big, .animate-fade-in-up, .animate-fade-in-up-big, .animate-fade-out, .animate-fade-out-down, .animate-fade-out-down-big, .animate-fade-out-left, .animate-fade-out-left-big, .animate-fade-out-right, .animate-fade-out-right-big, .animate-fade-out-up, .animate-fade-out-up-big, .animate-flip, .animate-flip-in-x, .animate-flip-in-y, .animate-flip-out-x, .animate-flip-out-y, .animate-lightspeed-in, .animate-lightspeed-out, .animate-rotate-in, .animate-rotate-in-down-left, .animate-rotate-in-down-right, .animate-rotate-in-up-left, .animate-rotate-in-up-right, .animate-rotate-out, .animate-rotate-out-down-left, .animate-rotate-out-down-right, .animate-rotate-out-up-left, .animate-rotate-out-up-right, .animate-hinge, .animate-roll-in, .animate-roll-out, .animate-zoom-in, .animate-zoom-in-down, .animate-zoom-in-left, .animate-zoom-in-right, .animate-zoom-in-up, .animate-zoom-out, .animate-zoom-out-down, .animate-zoom-ou-left, .animate-zoom-out-right, .animate-zoom-out-up, .animate-slide-in-down, .animate-slide-in-left, .animate-slide-in-right, .animate-slide-in-up, .animate-slide-out-down, .animate-slide-out-left, .animate-slide-out-right, .animate-slide-out-up {
+.animate, .animate-flash, .animate-pulse, .animate-rubber-band, .animate-shake, .animate-swing, .animate-tada, .animate-wobble, .animate-bounce-in, .animate-bounce-in-down, .animate-bounce-in-left, .animate-bounce-in-right, .animate-bounce-in-up, .animate-bounce-out, .animate-bounce-out-down, .animate-bounce-out-left, .animate-bounce-out-right, .animate-bounce-out-up, .animate-fade-in, .animate-fade-in-down, .animate-fade-in-down-big, .animate-fade-in-left, .animate-fade-in-left-big, .animate-fade-in-right, .animate-fade-in-right-big, .animate-fade-in-up, .animate-fade-in-up-big, .animate-fade-out, .animate-fade-out-down, .animate-fade-out-down-big, .animate-fade-out-left, .animate-fade-out-left-big, .animate-fade-out-right, .animate-fade-out-right-big, .animate-fade-out-up, .animate-fade-out-up-big, .animate-flip, .animate-flip-in-x, .animate-flip-in-y, .animate-flip-out-x, .animate-flip-out-y, .animate-lightspeed-in, .animate-lightspeed-out, .animate-rotate-in, .animate-rotate-in-down-left, .animate-rotate-in-down-right, .animate-rotate-in-up-left, .animate-rotate-in-up-right, .animate-rotate-out, .animate-rotate-out-down-left, .animate-rotate-out-down-right, .animate-rotate-out-up-left, .animate-rotate-out-up-right, .animate-hinge, .animate-roll-in, .animate-roll-out, .animate-zoom-in, .animate-zoom-in-down, .animate-zoom-in-left, .animate-zoom-in-right, .animate-zoom-in-up, .animate-zoom-out, .animate-zoom-out-down, .animate-zoom-out-left, .animate-zoom-out-right, .animate-zoom-out-up, .animate-slide-in-down, .animate-slide-in-left, .animate-slide-in-right, .animate-slide-in-up, .animate-slide-out-down, .animate-slide-out-left, .animate-slide-out-right, .animate-slide-out-up {
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s;
 		-webkit-animation-fill-mode: both;
@@ -2111,12 +2111,60 @@
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
 
+@-webkit-keyframes zoom-out-left {
+		40% {
+				opacity: 1;
+				-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+				        transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0); }
+		100% {
+				opacity: 0;
+				-webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+				        transform: scale(0.1) translate3d(-2000px, 0, 0);
+				-webkit-transform-origin: left center;
+				        transform-origin: left center; } }
+
+@keyframes zoom-out-left {
+		40% {
+				opacity: 1;
+				-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+				        transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0); }
+		100% {
+				opacity: 0;
+				-webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+				        transform: scale(0.1) translate3d(-2000px, 0, 0);
+				-webkit-transform-origin: left center;
+				        transform-origin: left center; } }
+
 /* line 937, ../styles/animate.sass */
-.animate-zoom-ou-left {
-		-webkit-animation-name: "zoom-ou-left";
-		        animation-name: "zoom-ou-left";
+.animate-zoom-out-left {
+		-webkit-animation-name: "zoom-out-left";
+		        animation-name: "zoom-out-left";
 		-webkit-animation-duration: 0.4s;
 		        animation-duration: 0.4s; }
+
+@-webkit-keyframes zoom-out-right {
+		40% {
+				opacity: 1;
+				-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+				        transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0); }
+		100% {
+				opacity: 0;
+				-webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+				        transform: scale(0.1) translate3d(2000px, 0, 0);
+				-webkit-transform-origin: right center;
+				        transform-origin: right center; } }
+
+@keyframes zoom-out-right {
+		40% {
+				opacity: 1;
+				-webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+				        transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0); }
+		100% {
+				opacity: 0;
+				-webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+				        transform: scale(0.1) translate3d(2000px, 0, 0);
+				-webkit-transform-origin: right center;
+				        transform-origin: right center; } }
 
 /* line 937, ../styles/animate.sass */
 .animate-zoom-out-right {
