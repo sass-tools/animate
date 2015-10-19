@@ -1,8 +1,8 @@
 {
-  "name": "nitro-skeleton",
+  "name": "sasslets-animate",
   "version": "0.0.1",
-  "description": "nitro skeleton",
-  "main": "run.js",
+  "description": "sass version from animate css",
+  "main": "make.js",
   "scripts": {
     "test": "make test"
   },
