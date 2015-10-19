@@ -1,5 +1,5 @@
-Animate Sass
-============
+Sasslets - animate
+==================
 
 > This Sass library is an adaptation from:
   <br/>Animate.css - http://daneden.me/animate
@@ -9,7 +9,24 @@ Animate Sass
 
 [DEMO](http://sasslets.github.io/animate/)
 
+
+
+Installation
+------------
+``` sh
+bower install sasslets-animate --save-dev
+```
+``` sh
+npm install sasslets-animate --save-dev
+```
+
+Usage
+-----
+
 ``` sass
+// $animation-duration-default: 0.4s !default
+// $animation-big-movement: 2000px
+
 @import animate
 
 // *: required, ?: optional
