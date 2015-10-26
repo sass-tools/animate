@@ -1,17 +1,17 @@
 {
-  "name": "sasslets-animate",
-  "version": "0.0.1",
-  "description": "sass version from animate css",
-  "main": "make.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "keywords": [
-    "nitro"
-  ],
-  "author": "Jesús Germade <jesus@germade.es>",
-  "license": "MIT",
-  "devDependencies": {
-    "nitro": "^1.5.17"
-  }
+	"name": "sasslets-animate",
+	"version": "0.0.2",
+	"description": "sass version from animate css",
+	"main": "make.js",
+	"scripts": {
+		"test": "make test"
+	},
+	"keywords": [
+		"nitro"
+	],
+	"author": "Jesús Germade <jesus@germade.es>",
+	"license": "MIT",
+	"devDependencies": {
+		"nitro": "^1.5.17"
+	}
 }

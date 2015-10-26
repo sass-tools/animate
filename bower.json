@@ -1,20 +1,20 @@
 {
-  "name": "sasslets-animate",
-  "version": "0.0.0",
-  "homepage": "http://github.com/sasslets/animate",
-  "authors": [
-    "Jesús Germade <jesus@germade.es>"
-  ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {}
+	"name": "sasslets-animate",
+	"version": "0.0.2",
+	"homepage": "http://github.com/sasslets/animate",
+	"authors": [
+		"Jesús Germade <jesus@germade.es>"
+	],
+	"description": "",
+	"main": "",
+	"moduleType": [],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {}
 }

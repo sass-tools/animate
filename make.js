@@ -29,6 +29,25 @@ require('nitro')(function (nitro) {
       });
     });
 
+    var pkgActions = {
+      increaseVersion: function () {
+        var version = nitro.package('npm').increaseVersion().version();
+        nitro.package('bower').setVersion( version );
+        process.stdout.write(version);
+        process.exit(0);
+      }
+    };
+
+    nitro.task('pkg', function (target) {
+      if( pkgActions[target] ) {
+        return pkgActions[target]();
+      }
+
+      var pkg = require('../package');
+      process.stdout.write(pkg[target]);
+      process.exit(0);
+    });
+
   })
   .import('.make')
   .run();
