@@ -1,6 +1,6 @@
 {
 	"name": "sasslets-animate",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "sass version from animate css",
 	"main": "make.js",
 	"scripts": {
