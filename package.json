@@ -1,6 +1,6 @@
 {
 	"name": "sasslets-animate",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "sass version from animate css",
 	"main": "make.js",
 	"scripts": {
@@ -11,6 +11,7 @@
 	],
 	"author": "Jesús Germade <jesus@germade.es>",
 	"license": "MIT",
+	"repository": "sasslets/animate",
 	"devDependencies": {
 		"nitro": "^1.5.17"
 	}
